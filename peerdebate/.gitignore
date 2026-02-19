@@ -1,0 +1,4 @@
+node_modules/
+.pear/
+*.log
+.DS_Store

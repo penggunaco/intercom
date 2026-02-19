@@ -1,0 +1,34 @@
+{
+  "name": "intercom-peerdebate",
+  "version": "1.0.0",
+  "description": "PeerDebate: Decentralized timed argument arena built on Hyperswarm / Trac Intercom ecosystem.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "start:pear": "pear run ."
+  },
+  "pear": {
+    "name": "intercom-peerdebate",
+    "type": "terminal"
+  },
+  "keywords": [
+    "p2p",
+    "hyperswarm",
+    "trac",
+    "intercom",
+    "debate",
+    "decentralized",
+    "pear",
+    "termux"
+  ],
+  "author": "[INSERT_YOUR_TRAC_ADDRESS_HERE]",
+  "license": "MIT",
+  "dependencies": {
+    "hyperswarm": "^4.7.0",
+    "b4a": "^1.6.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
